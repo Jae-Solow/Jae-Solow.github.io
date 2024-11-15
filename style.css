@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drawer-menu {
+    position: relative;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+}
+
+#menu li {
+    padding: 1rem;
+    border-bottom: 1px solid #444;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile img {
+    display: block;
+    margin: 2rem auto;
+    border-radius: 50%;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.mission, .vision {
+    width: 45%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons img {
+    width: 24px;
+    margin: 0 0.5rem;
+}
